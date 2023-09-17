@@ -14,7 +14,7 @@ int main()
     printf("Hello %s\n", name);
 
     //%d is format speccifier for type int, and age is the variable being used
-    printf("You are %d years old",age);
+    printf("You are %d years old\n",age);
 
     //%c is format speccifier for type char
     printf("Your average grade is %c\n", grade);
