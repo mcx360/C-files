@@ -21,6 +21,8 @@ int main()
 
     //%f is format specifier for type float
     printf("Your qca is %f\n", qca);  
+
+    
     
     return 0;
 }
