@@ -20,9 +20,7 @@ int main()
     printf("Your average grade is %c\n", grade);
 
     //%f is format specifier for type float
-    printf("Your qca is %f\n", qca);  
-
-    
+    printf("Your qca is %.2f\n", qca);  
     
     return 0;
 }
