@@ -8,16 +8,22 @@ int main(){
     float c = 3.141592; //4 bytes %f
     double d = 3.141592765476457; //8 bytes %lf
 
-    bool e = true; //%d
-    char f = 100;
+    bool e = true; //%d 1=true, 0=false
+    char f = 100;   //1 byte -128 to +127
     int g = 1232435543; 
 
-    long long int h = 34125634773255352334; //8 bytes -/+ 9 quintillion %lld
-    unsigned long long int i =18342342342423424U; //8 bytes 0 to 18 quintillion %llu
+    unsigned char h = 255; //1 byte (0 to 255)
+    short int i = 32767; //2bytes -/+32767 %d
+    unsigned short int j = 65535; //2 bytes (0 to 65,535)%d
+
+    int k =2147483647; //%d
+    unsigned int l = 4294967295;//%u
 
     printf("%f\n", c);
     printf("%.15lf\n", d);
-    printf("%d", e);
-
+    printf("%d\n", e);
+    printf("%d\n", h);
+    printf("%d\n", i);
+    printf("%d\n", j);
     return 0;
 }
